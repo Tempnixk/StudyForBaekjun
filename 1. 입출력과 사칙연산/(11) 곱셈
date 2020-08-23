@@ -1,0 +1,21 @@
+#include <stdio.h>
+int main() {
+    
+    int a, b;
+    
+    
+
+    
+    scanf("%d %d", &a, &b);
+    
+    int thr = a * (b - (b/10*10));
+    int fou = a * ((b/10)-(b/100*10));
+    int fiv = a * (b/100);
+
+    printf("%d\n", thr);
+    printf("%d\n", fou);
+    printf("%d\n", fiv);
+    printf("%d\n", a*b);
+
+    return 0;
+}
