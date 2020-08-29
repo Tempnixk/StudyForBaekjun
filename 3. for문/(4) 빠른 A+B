@@ -1,0 +1,17 @@
+/*for문의 2번 문제와 소스코드를 동일하게 작성함.
+그런데 되는 이유를 모르겠음 */
+#include <stdio.h>
+int main()
+{
+    int i,T,a,b;
+    scanf("%d", &T);
+    
+    
+    for(i=10-T; i < 10; i++ )
+    {
+      scanf("%d %d", &a, &b);
+      printf("%d\n", a+b);
+    }
+
+    return 0;
+}
