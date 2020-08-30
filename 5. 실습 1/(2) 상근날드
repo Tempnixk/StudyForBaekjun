@@ -1,0 +1,29 @@
+#include <stdio.h>
+int main()
+{
+  int a,b,c,d,e, tot=0;
+  scanf("%d %d %d %d %d", &a, &b, &c, &d, &e);
+  if(a>c&&b>c)
+  {
+    tot=tot+c;
+  }
+  else if(b>a&&c>a)
+  {
+    tot=tot+a;
+  }
+  else
+  {
+    tot=tot+b;
+  }
+
+  if(d>e)
+  {
+    tot=tot+e;
+  }
+  else
+  {
+    tot=tot+d;
+  }
+  printf("%d", tot-50);
+  return 0;
+}
