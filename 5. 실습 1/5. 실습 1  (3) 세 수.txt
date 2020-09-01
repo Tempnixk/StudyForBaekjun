@@ -1,0 +1,24 @@
+#include <stdio.h>
+int main()
+{
+
+    int a, b, c, res1, res2, res3;
+    scanf("%d %d %d", &a, &b, &c);
+    res1 = (a>b) ? a : b;
+    res2 = (b>c) ? b : c;
+    res3 = (a>c) ? a : c;
+
+    if(res1==res2)
+    {
+      printf("%d", res3);
+    }
+    else if(res2==res3)
+    {
+      printf("%d", res1);
+    }
+    else
+    {
+      printf("%d", res2);
+    }
+    return 0;
+}
